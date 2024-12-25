@@ -12,20 +12,77 @@
 
         <!-- Lista de Servidores para Latino -->
         <div id="latino-servers" class="server-list" style="display: flex;">
-            <div class="server-item" onclick="loadVideo('https://streamwish.top/e/p8v9j3cfhnks')">
+            <div class="server-item" onclick="loadVideo('https://geo.dailymotion.com/player.html?video=k2awM54QowfVmSC1VLo')">
                 <img src="https://saidochesto.top/static/server/streamwish.top.png" alt="Streamwish">
                 <div>
-                    <strong>STREAMWISH</strong>
-                    <p>Max. 3 ventanas emergentes</p>
+                    <strong>DAILYMOTION</strong>
+                    <p>Max. 0 ventanas emergentes</p>
                 </div>
             </div>
-            <div class="server-item" onclick="loadVideo('https://filemooon.top/e/2q5xkdop8540/_AnimeOnlineNinja__Shangri-La_Frontier_Latino_25')">
+            <div class="server-item" onclick="loadVideo('//ok.ru/videoembed/9179405552366?nochat=1')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>OK</strong>
+                    <p>Max. 0 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+          <div class="server-item" onclick="loadVideo('https://short.ink/IuDiDQIIg')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>FILEMOON</strong>
+                    <p>Max. 0 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+          <div class="server-item" onclick="loadVideo('https://filemoon.to/e/f8csx9tz8sxd/xxl_full.mp4')">
                 <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
                 <div>
                     <strong>FILEMOON</strong>
                     <p>Max. 2 ventanas de publicidad | HD</p>
                 </div>
             </div>
+                    <div class="server-item" onclick="loadVideo('https://filemoon.to/e/f8csx9tz8sxd/xxl_full.mp4')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>FILEMOON</strong>
+                    <p>Max. 2 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+                    <div class="server-item" onclick="loadVideo('https://filemoon.to/e/f8csx9tz8sxd/xxl_full.mp4')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>FILEMOON</strong>
+                    <p>Max. 2 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+                    <div class="server-item" onclick="loadVideo('https://filemoon.to/e/f8csx9tz8sxd/xxl_full.mp4')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>FILEMOON</strong>
+                    <p>Max. 2 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+                    <div class="server-item" onclick="loadVideo('https://filemoon.to/e/f8csx9tz8sxd/xxl_full.mp4')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>FILEMOON</strong>
+                    <p>Max. 2 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+                    <div class="server-item" onclick="loadVideo('https://filemoon.to/e/f8csx9tz8sxd/xxl_full.mp4')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>FILEMOON</strong>
+                    <p>Max. 2 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+                    <div class="server-item" onclick="loadVideo('https://filemoon.to/e/f8csx9tz8sxd/xxl_full.mp4')">
+                <img src="https://i.imgur.com/mZVCUNO.png" alt="Filemoon">
+                <div>
+                    <strong>FILEMOON</strong>
+                    <p>Max. 2 ventanas de publicidad | HD</p>
+                </div>
+            </div>
+          
         </div>
 
         <!-- Lista de Servidores para Castellano -->
@@ -101,8 +158,6 @@
         display: flex;
         justify-content: center;
         padding: 10px;
-        background: rgba(255, 255, 255, 0.05);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         z-index: 100;
     }
 
@@ -126,7 +181,8 @@
         flex-direction: column;
         gap: 15px;
         flex-grow: 1;
-        overflow-y: auto;
+        overflow-y: scroll;
+        height: 500px;
     }
 
     .server-list {
@@ -172,7 +228,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 88%;
+        height: 100%;
         border: none;
     }
 
@@ -221,6 +277,21 @@
 
     .post-feeds {
         display: none;
+    }
+
+      /* Responsive Design */
+    @media (max-width: 768px) {
+    .server-lists {
+        overflow-y: scroll;
+        height: 230px;
+    }
+    }
+
+    @media (max-width: 480px) {
+    .server-lists {
+        overflow-y: scroll;
+        height: 130px;
+    }
     }
 </style>
 
